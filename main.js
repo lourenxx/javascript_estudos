@@ -14,7 +14,8 @@ function tocaSom(seletorAudio) {
         alert('Elemento não encontrado!');
     }
 }
-            
+ 
+// COMENTÁRIO
 for ( let contador = 0; contador < listaDeTecla.length; contador++) {
     
     const tecla = listaDeTecla[contador];
