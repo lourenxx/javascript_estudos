@@ -13,6 +13,7 @@ function tocaSom(seletorAudio) {
     else{
         alert('Elemento não encontrado!');
     }
+}
             
 for ( let contador = 0; contador < listaDeTecla.length; contador++) {
     
@@ -34,5 +35,5 @@ for ( let contador = 0; contador < listaDeTecla.length; contador++) {
     tecla.onkeyup = function(){
         tecla.classList.remove('ativa');
     }
-
+    
 }
